@@ -1,0 +1,33 @@
+name: remindmeof
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bot_toast: ^4.0.1
+  cupertino_icons: ^1.0.2
+  file_picker: ^3.0.1
+  flutter_local_notifications: ^5.0.0+4
+  google_fonts: ^2.0.0
+  image_picker: ^0.7.4
+  intl: ^0.17.0
+  path: ^1.8.0
+  path_provider: ^2.0.1
+  persistent_bottom_nav_bar: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
